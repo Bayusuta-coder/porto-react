@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.stagger span {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(10px);
+  animation: staggerAnimation 0.05s forwards;
+}
+
+@keyframes staggerAnimation {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 p {
+    color: (14.7% 0.004 49.25);
+  }
+}
+
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
