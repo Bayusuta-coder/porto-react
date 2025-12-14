@@ -20,7 +20,7 @@ function App() {
         <Route path="/About" element={<Aboutpage />} />
         <Route path="/Sosmed" element={<Sosmedpage />} />
         <Route path="/Contact" element={<Contactpage />} />
-        <Route path="/Portofolio" element={<Portfoliopage />} />
+        <Route path="/Portofolio" element={<PortfolioPage />} />
       </Routes>
 
       {/* Footer Component */}

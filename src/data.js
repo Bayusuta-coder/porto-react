@@ -1,4 +1,3 @@
-import HeroImage from "";
 import HeroImage1 from "/assets/hero-1.webp";
 import HeroImage2 from "/assets/hero-2.webp";
 import HeroImage3 from "/assets/hero-3.webp";
@@ -11,12 +10,11 @@ import Sponsor2 from "/assets/google.webp";
 import Sponsor3 from "/assets/facebook.webp";
 import Sponsor4 from "/assets/discord.webp";
 
-import portfolio1 from "/assets/portfolio1.png";
-import portfolio2 from "/assets/portfolio2.png";
-import portfolio3 from "/assets/portfolio3.png";
+import portfolio1 from "/assets/portofolio1.png";
+import portfolio2 from "/assets/portofolio2.png";
+import portfolio3 from "/assets/portofolio3.png";
 
 export const Image = {
-  HeroImage,
   HeroImage1,
   HeroImage2,
   HeroImage3,
@@ -35,20 +33,20 @@ export const SekilasAcara = [
   {
     id: 1,
     icon: "ri-lightbulb-flash-fill",
-    Judul: "Inovator",
-    text: "individu yang membawa ide-ide baru yang revolusioner, para pemimpin pemikiran yang berani menawarkan solusi kreatif untuk masalah yang kompleks.",
+    Judul: "Problem Solving Mindset",
+    text: "Able to analyze user needs and translate them into effective digital solutions. Focused on building functional, intuitive, and user-friendly interfaces that address real problems.",
   },
   {
     id: 2,
     icon: "ri-heart-fill",
-    Judul: "Penampilan",
-    text: "Tidak hanya presentasi yang dibawakan oleh Inovator atau Pengembang, pada event kali ini juga kita akan menampilkan sebuah pertunjukan.",
+    Judul: "Detail Design Approach",
+    text: "Strong attention to visual clarity, consistency, and modern aesthetics. Every interface is crafted with clean layout, thoughtful UI/UX decisions, and a commitment to high-quality design",
   },
   {
     id: 3,
     icon: "ri-star-fill",
-    Judul: "Hadiah",
-    text: "Pada event kali ini bagi peserta yang beruntung akan mendapatkan hadiah dari Inovator danjuga Sponsor yang mensponsori event kali ini.",
+    Judul: "Professional Work Ethich",
+    text: "Organized, responsible, and dedicated to delivering work on time. Experienced in handling both web development projects and academic support with structured, accurate, and dependable results.",
   },
 ];
 

@@ -1,4 +1,5 @@
-import { Image, SekilasAcara } from "../data";
+import { SekilasAcara, DataPembicara, PortfolioData } from "../data";
+import { Image } from "../data";
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
@@ -112,7 +113,7 @@ const Homepage = () => {
             className="text-center text-white md:text-5xl/tight text-4xl/tight mb-6 font-semibold"
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-once="true"
+            data-aos-delay="200"
           >
             About Me
           </h1>
@@ -121,7 +122,6 @@ const Homepage = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            data-aos-once="true"
           >
             A Web Developer with a focus on creating clean, modern, and
             responsive digital experiences, combining front-end development
@@ -142,8 +142,7 @@ const Homepage = () => {
                 className="text-center bg-white p-4 rounded-lg hover:bg-indigo-900 group"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay={acara.delay}
-                data-aos-once="true"
+                data-aos-delay={acara.id * 200}
               >
                 <i
                   className={` ${acara.icon} group-hover:text-white ri-3x text-indigo-900`}
@@ -161,9 +160,9 @@ const Homepage = () => {
             <Link
               to={"About"}
               className="bg-indigo-900 w-fit text-white p-3 rounded text-lg hover:bg-indigo-800"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-once="true"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
             >
               View Details <i className="ri-eye-fill"></i>
             </Link>
@@ -391,7 +390,7 @@ const Homepage = () => {
 
           <div className="text-center mt-12">
             <Link
-              to="portfolio"
+              to="Portofolio"
               className="bg-indigo-900 text-white p-3 rounded-lg hover:bg-indigo-800 transition-colors duration-300"
               data-aos="zoom-in"
               data-aos-delay="200"
